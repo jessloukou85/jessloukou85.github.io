@@ -1,0 +1,77 @@
+@import url('https://fonts.google.com/specimen/Redressed?query=redressed');
+@import url('https://fonts.google.com/specimen/Merriweather?query=merriweather');
+
+.redressed{
+    font-family: 'redressed',cursive;
+    font-size: 16px;
+    font-weight: 800;
+}
+.merriweather{
+    font-family: 'merriweather',serif;
+    font-size: 16px;
+    font-weight: 800;
+}
+body{
+    background-color: rgb(245, 207, 229);
+}
+.cle{
+    color: orange;
+}
+.lk-navbar{
+    background-color: rgba(0, 0, 0, 0.55);
+    font-family: 'merriweather',serif;
+    box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.54);
+    z-index: 99;
+}
+.lk-navbar .nav-link{
+    border-bottom: 2px solid transparent;
+    transition: padding-bottom 0.4s ease-in-out, border-color 0.3s ease ;
+}
+.lk-navbar .nav-link:hover {
+    padding-bottom: 20px;
+    border-bottom-color: var(--bs-teal);
+}
+.banner{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../img/restaurant.jpg')center center fixed no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+.banner .banner-desc{
+    color: #fff;
+    font-weight: 700;
+    font-size: 40px;
+
+}
+.pub .bb img{
+    height: 450px;
+    width: 450px;
+}
+.btn-lk{
+    color: var(--bs-teal);
+    border-color: var(--bs-teal);
+    transition: 0,5s;
+}
+.btn-lk:hover,
+.btn-lk:active{
+    color: white;
+    background-color: var(--bs-teal);
+}
+.lk-menu{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../img/wine-glasses.jpg') fixed center center no-repeat;
+    background-size: cover;
+    height: 1400px;
+}
+.jl-banner{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    
+}
+.hh{
+    transition: 4s;
+}
+.pge2{
+    padding-top: 80px;
+}
+.lj-pge2{
+    background: linear-gradient(rgba(129, 123, 212,0.3),rgba(129, 123, 212,0.3)),url('../img/gifmaker_me1.gif')center center fixed no-repeat;
+    background-size: cover;
+}
