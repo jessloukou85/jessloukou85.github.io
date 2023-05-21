@@ -1,4 +1,105 @@
-<%- include('../partials/header.ejs') %>
-<%- include('../partials/surf.ejs') %>
-<%- include('../container/page1.ejs') %>
-<%- include('../partials/footer.ejs') %>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/style.css"> 
+    <title>mon site</title>
+</head>
+<body>
+    <nav class=" lk-navbar navbar position-fixed w-100 navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+        <a class="navbar-brand py-3 mx-4 text-uppercase fw-bolder " href="#">SCI les <span class="cle">clementines</span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-4">
+            <li class="nav-item">
+                <a class="nav-link active pe-4" aria-current="page" href="homepage.html">Acceuil</a>
+            </li>
+            <li class="nav-item pe-4">
+                <a class="nav-link" href="service.html">Service</a>
+            </li>
+            <li class="nav-item pe-4">
+                <a class="nav-link" href="departement.html">Departement</a>
+            </li>
+            <li class="nav-item pe-4">
+                <a class="nav-link" href="formation.html">Formation</a>
+            </li>
+            <li class="nav-item pe-4">
+                <a class="btn btn-lk rounded-0" href="#">Passer une Commande</a>
+            </li>
+        </div>
+        </div>
+    </nav>
+    <!-- HAUT DE PAGE -->
+    <header>
+        <div class="container">
+            <div class="card mb-3 border-0 rounded-0">
+                <div class="row">
+                <div class="col-md-6">
+                    <img src="img/coffee.jpg" class="img-fluid" alt="...">
+                </div>
+                <div class="col-md-6">
+                    <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+        <p>
+            entrez dans l'univers de la programmation:
+        </p>
+    </header>
+    <!-- BARRE DE NAVIGATION -->
+    <nav class="menu_nav">
+        <ul>
+            <li class="btn"><a href="index.html">accueil</a></li>
+            <li class="btn"><a href="essai.html" target="_blank">actualite</a></li>
+            <li class="btn"><a href="contact.html" target="_blank">contact</a></li>
+            <li class="btn"><a href="home.html" target="_blank">PAGE</a></li>
+        </ul>
+    </nav>
+    <h1>bienvenue sur ma première page</h1>
+    <p class="bien">preparons nous à aller plus loin cette fois ci <br>
+    voici ma nouvelle voiture</p>
+    <a href="https://google.com" target="_blank">clickez ici</a><br>
+    <img src="v2.jpg" with="120px" height="120px">
+    <p class="mal"> je pars pour l'europe</p>
+    <h1 class="top">au revoir et à bientot </h1>
+    <!-- CONTENU SOUS FORME DE BOITE -->
+    <div id="contenu">
+            <div class="left_box">
+                <h1 class="x">mon enfant</h1>
+                <p>ma fille est au CP2</p>
+                <div class="new">
+                    <p>bientôt</p>
+                    <img src="v2.jpg" alt=""width="60px">
+                </div>
+                <div class="new">
+                    <p>le retour </p>
+                    <img src="v1.jpg" alt=""width="60px">
+                </div>
+                <div class="new">
+                    <p>la noblesse</p>
+                    <img src="v2.jpg" alt="" width="60px">
+                </div>
+            </div>
+            <div class="rigth_box">
+                <h1>ma derniere video </h1>
+                <iframe width="200px" heigth="200" src="https://youtu.be/kzPpFoyMcXY" frameborder="0" ></iframe>
+            </div>
+    </div>
+    <!-- PIED DE PAGE -->
+    <footer>
+       <p>copyrigth &copy; jessloukou@gmail.com -2020-2021 all rigth reserved</p>
+    </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
