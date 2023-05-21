@@ -12,8 +12,9 @@
     font-weight: 800;
 }
 body{
-    background: linear-gradient(rgb(245, 207, 229),rgb(124, 205, 219)),url('../img/coffee.jpg') center center no-repeat fixed;
+    background: linear-gradient(rgb(245, 207, 229),rgb(124, 205, 219)),url('../img/coffee.jpg')center center no-repeat fixed;
     background-size: cover;
+    height: 2000px;
 }
 .cle{
     color: orange;
