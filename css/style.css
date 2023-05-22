@@ -12,7 +12,7 @@
     font-weight: 800;
 }
 body{
-    background: linear-gradient(rgb(245, 207, 229),rgb(124, 205, 219)),url('../img/coffee.jpg')center center no-repeat fixed;
+    background: linear-gradient(rgb(245, 207, 229),rgb(124, 205, 219)),url('../img/dubai.jpg')center center no-repeat fixed;
     background-size: cover;
     height: 2000px;
 }
@@ -34,7 +34,7 @@ body{
     border-bottom-color: var(--bs-teal);
 }
 .banner{
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../img/restaurant.jpg')center center fixed no-repeat;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../img/dubai.jpg')center center fixed no-repeat;
     background-size: cover;
     height: 600px;
 }
@@ -59,7 +59,7 @@ body{
     background-color: var(--bs-teal);
 }
 .lk-menu{
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../img/wine-glasses.jpg') fixed center center no-repeat;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../img/beautiful-home.jpg') fixed center center no-repeat;
     background-size: cover;
     height: 1400px;
 }
