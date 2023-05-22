@@ -77,3 +77,6 @@ body{
     background: linear-gradient(rgba(129, 123, 212,0.3),rgba(129, 123, 212,0.3)),url('../img/carousel/interior-design.jpg')center center fixed no-repeat;
     background-size: cover;
 }
+.jl-pge4{
+    padding-top: 100px;
+}
